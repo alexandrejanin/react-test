@@ -1,0 +1,41 @@
+.header {
+    background-color: #282c34;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header-text {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.header-logo {
+    position: relative;
+    display: flex;
+    height: 60px;
+    animation: App-logo-spin infinite 60s linear;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    color: white;
+    font-family: sans-serif;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
